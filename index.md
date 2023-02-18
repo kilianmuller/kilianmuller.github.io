@@ -14,6 +14,8 @@ I followed Alexei Ourjoumtsev to the Collège de France as a PostDoc to help sta
 
 I made the jump from academia to industry to work at the startup [LightOn](https://lighton.ai). In its hardware research division I built optical processors - specialized machines that perform random projections for randomized numerical linear algebra and machine learning applications.
 
+Lately I have become interested in the application of tools and techniques developed by the machine learning community to problems in optics.
+
 ---
 
 You can find my PhD thesis [here](https://pastel.archives-ouvertes.fr/tel-01127067).  
