@@ -23,4 +23,4 @@ A full list of the publications and patents I (co-)authored is on [Google Schola
 
 ---
 
-I like to take [pictures](https://kilianmuller.myportfolio.com).
+I like taking [photos](https://kilianmuller.myportfolio.com).
