@@ -21,6 +21,7 @@ Lately I have become interested in the application of tools and techniques devel
 You can find my PhD thesis [here](https://pastel.archives-ouvertes.fr/tel-01127067).  
 A full list of the publications and patents I (co-)authored is on [Google Scholar](https://scholar.google.com/citations?user=OP_vsl4AAAAJ&hl=en&oi=ao).
 
+I like taking [photos](https://kilianmuller.myportfolio.com) and [3D printing](https://www.printables.com/social/220917-kilian/).
+
 ---
 
-I like taking [photos](https://kilianmuller.myportfolio.com) and [3D printing](https://www.printables.com/social/220917-kilian/).
