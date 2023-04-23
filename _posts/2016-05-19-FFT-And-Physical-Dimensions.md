@@ -2,6 +2,7 @@
 layout: post
 title: "Getting the dimensions right when using Fast Fourier Transforms to simulate Fourier Optics"
 categories: misc
+published: false
 ---
 
 The action of a focusing lens on an electromagnetic field is described by a Fourier Transform. That makes it very easy to simulate via the [Fast Fourier Transform algorithm](https://en.wikipedia.org/wiki/Fast_Fourier_transform), which is implemented in many important programming languages. Here I show how 
