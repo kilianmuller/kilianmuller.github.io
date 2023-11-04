@@ -8,14 +8,9 @@ published: true
 
 ## My Interactive Plot
 
-<!-- Start X Data -->
+<!-- Start Data -->
 <script>
 var xData = [1, 2, 3, 4];
-</script>
-<!-- End X Data -->
-
-<!-- Start Y Data -->
-<script>
 var yData = [10, 15, 13, 17];
 </script>
 <!-- End Y Data -->
