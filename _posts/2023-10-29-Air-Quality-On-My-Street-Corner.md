@@ -5,8 +5,13 @@ categories: misc
 published: true
 ---
 
+# Monitoring the air quality on my street corner
 
-## My interactive plot
+Air quality is massively improving in Paris, where I live. But Paris is big, and I am only breathing right where I am. What is the situation right where I live, on my street corner?
+
+Without giving too much away, our building is next to a moderately busy Parisian street corner, and our apartment is on the fourth floor.. There is a traffic light where cars and motorcycles stop and accelerate. People smoke outside the bar downstairs. But there is also one of the biggest parks in Paris nearby.
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data-1970-2030.min.js"></script>
@@ -15,7 +20,7 @@ published: true
 <script>
   // Function to fetch data and create the plot
   function fetchDataAndPlot() {
-    fetch('/data/PM_data.json')  // Update with the correct path to your JSON file
+    fetch('/data/PM_data.json')
       .then(response => response.json())
       .then(data => {
 //        var convertedXData = data.xData.map(unixTime => new Date(unixTime * 1000));
@@ -31,8 +36,10 @@ published: true
 	    xaxis: {
 	    	   type: 'date',
 		   title: 'Time (Paris)'},
+	    yaxis: {
+	    	   title: 'PM 2.5 [ μg/m³ ]'},
 	    dragmode: 'zoom',
-	    title: 'Interactive Plot Example'
+	    title: 'Interactive plot of particulate matter concentration'
 		   };
         Plotly.newPlot('myDiv', [trace], layout);
       })
