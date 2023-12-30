@@ -18,6 +18,25 @@ I have installed an air quality sensor outside the window that looks onto our st
 
 
 <script>
+
+function getUserColorScheme() {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // Dark mode
+      return {
+        plot_bgcolor: "#333",
+        paper_bgcolor: "#333",
+        font: {color: "#fff"}
+      };
+    } else {
+      // Bright mode (default)
+      return {
+        plot_bgcolor: "#fff",
+        paper_bgcolor: "#fff",
+        font: {color: "#333"}
+      };
+    }
+  }
+
   // Function to fetch data and create the plot
   function fetchDataAndPlot() {
     fetch('/data/PM_daily_data.json')
@@ -38,7 +57,8 @@ I have installed an air quality sensor outside the window that looks onto our st
 	    yaxis: {
 	    	   title: 'PM 2.5 [ μg/m³ ]'},
 	    dragmode: 'zoom',
-	    title: 'Daily average of PM 2.5 concentration'
+	    title: 'Daily average of PM 2.5 concentration',
+	    ...getUserColorScheme() // Apply bright or dark colour scheme
 		   };
         Plotly.newPlot('myDiv', [trace], layout);
       })
