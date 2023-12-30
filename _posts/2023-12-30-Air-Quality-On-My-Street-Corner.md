@@ -53,6 +53,6 @@ I have installed an air quality sensor outside the window that looks onto our st
 <div id="myDiv"></div>
 
 
-[The WHO recommends](https://www.who.int/publications/i/item/9789240034228) the PM 2.5 concentration not to exceed 15 μg/m³ over a 24 hour window. The threshold for the yearly average concentration is set to 5 μg/m³. [Current EU regulations](https://environment.ec.europa.eu/topics/air/air-quality/eu-air-quality-standards_en) are less stringent, setting the annual average to 20 μg/m³. Right now each Parisian is exposed to roughly twice the limit recommended by the WHO, or half that recommended by the EU.
+[The WHO recommends](https://www.who.int/publications/i/item/9789240034228) the PM 2.5 concentration not to exceed 15 μg/m³ over a 24 hour window. The threshold for the yearly average concentration is set to 5 μg/m³. [Current EU regulations](https://environment.ec.europa.eu/topics/air/air-quality/eu-air-quality-standards_en) are less stringent, setting the annual average to 20 μg/m³. Right now [each Parisian is exposed to roughly twice to three times the limit recommended by the WHO, but staying below the one recommended by the EU](https://airparif.asso.fr/surveiller-la-pollution/bilan-et-cartes-annuels-de-pollution).
 
-What does that mean? [The WHO report](https://environment.ec.europa.eu/topics/air/air-quality/eu-air-quality-standards_en) offers a clue, saying that a population being exposed to 10 μg/m³ instead of 5 μg/m³ experiences a 4% higher mortality.
+The sensor ([Plantower PMS7003](PMS7003) I am using is not bad: it claims to have a counting efficiency of 98% for particles larger than 0.5 μm. Still, take my data with a grain of salt.
