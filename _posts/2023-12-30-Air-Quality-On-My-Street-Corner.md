@@ -5,7 +5,7 @@ categories: misc
 published: true
 ---
 
-Air quality is [massively improving in Paris](/_posts/2023-04-20-PM25-pollution-Paris-2007-to-2021.md), where I live. But Paris is big, and I am only breathing right where I am. What is the situation on my street corner?
+Air quality is [massively improving in Paris](/misc/2023/12/30/Air-Quality-On-My-Street-Corner.html), where I live. But Paris is big, and I am only breathing right where I am. What is the situation on my street corner?
 
 Without giving too much away, our apartment is on the fourth floor, next to a moderately busy Parisian street corner. There is a traffic light where cars and motorcycles stop and accelerate. People smoke outside the bar downstairs. One of the biggest parks in Paris is only five minutes away.
 
@@ -80,4 +80,4 @@ function getUserColorScheme() {
 
 [The WHO recommends](https://www.who.int/publications/i/item/9789240034228) the PM 2.5 concentration not to exceed 15 μg/m³ over a 24 hour window. The threshold for the yearly average concentration is set to 5 μg/m³. [Current EU regulations](https://environment.ec.europa.eu/topics/air/air-quality/eu-air-quality-standards_en) are less stringent, setting the annual average to 20 μg/m³. Right now [each Parisian is exposed to roughly twice to three times the limit recommended by the WHO, but staying below the one recommended by the EU](https://airparif.asso.fr/surveiller-la-pollution/bilan-et-cartes-annuels-de-pollution).
 
-The sensor I am using ([Plantower PMS7003](PMS7003) is not bad: it claims to have a counting efficiency of 98% for particles larger than 0.5 μm. Still, take my data with a grain of salt. Probably the pros have more sophisticated sensors, and also calibrate their equipment. That being said, the concentrations I measure are qualitatively in line with those provided by the NGO [Airparif](https://airparif.asso.fr), which monitors the air quality in the greater Paris region.
+The sensor I am using ([Plantower PMS7003](PMS7003)) is not bad: it claims to have a counting efficiency of 98% for particles larger than 0.5 μm. Still, take my data with a grain of salt. Probably the pros have more sophisticated sensors, and also calibrate their equipment. That being said, the concentrations I measure are qualitatively in line with those provided by the NGO [Airparif](https://airparif.asso.fr), which monitors the air quality in the greater Paris region.
