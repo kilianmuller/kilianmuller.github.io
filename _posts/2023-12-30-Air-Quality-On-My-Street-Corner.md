@@ -58,10 +58,11 @@ function getUserColorScheme() {
 	    	   type: 'date',
 		   title: 'Time (Paris)',
 		   showgrid: true,
-		   gridcolor: '#333'},
+		   gridcolor: '#bdbdbd'},
 	    yaxis: {
 	    	   title: 'PM 2.5 [ μg/m³ ]',
-		   showgrid: true},
+		   showgrid: true,
+		   gridcolor: '#bdbdbd'},
 	    dragmode: 'zoom',
 	    title: 'Daily average of PM 2.5 concentration',
 	    ...getUserColorScheme() // Apply bright or dark colour scheme
