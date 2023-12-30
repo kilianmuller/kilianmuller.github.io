@@ -19,6 +19,9 @@ I have installed an air quality sensor outside the window that looks onto our st
 
 <script>
 
+// Function that determines whether the user has set a preference for bright or dark mode.
+// Define colours of the plot accordingly:
+
 function getUserColorScheme() {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       // Dark mode
@@ -53,9 +56,11 @@ function getUserColorScheme() {
         var layout = {
 	    xaxis: {
 	    	   type: 'date',
-		   title: 'Time (Paris)'},
+		   title: 'Time (Paris)',
+		   showgrid: true},
 	    yaxis: {
-	    	   title: 'PM 2.5 [ μg/m³ ]'},
+	    	   title: 'PM 2.5 [ μg/m³ ]',
+		   showgrid: true},
 	    dragmode: 'zoom',
 	    title: 'Daily average of PM 2.5 concentration',
 	    ...getUserColorScheme() // Apply bright or dark colour scheme
