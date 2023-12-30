@@ -5,7 +5,7 @@ categories: misc
 published: true
 ---
 
-Air quality is [massively improving in Paris](/misc/2023/12/30/Air-Quality-On-My-Street-Corner.html), where I live. But Paris is big, and I am only breathing right where I am. What is the situation on my street corner?
+Air quality is [massively improving in Paris](/misc/2023/04/20/PM25-pollution-Paris-2007-to-2021.html), where I live. But Paris is big, and I am only breathing right where I am. What is the situation on my street corner?
 
 Without giving too much away, our apartment is on the fourth floor, next to a moderately busy Parisian street corner. There is a traffic light where cars and motorcycles stop and accelerate. People smoke outside the bar downstairs. One of the biggest parks in Paris is only five minutes away.
 
