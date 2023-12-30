@@ -20,7 +20,7 @@ Without giving too much away, our building is next to a moderately busy Parisian
 <script>
   // Function to fetch data and create the plot
   function fetchDataAndPlot() {
-    fetch('/data/PM_data.json')
+    fetch('/data/PM_daily_data.json')
       .then(response => response.json())
       .then(data => {
 //        var convertedXData = data.xData.map(unixTime => new Date(unixTime * 1000));
