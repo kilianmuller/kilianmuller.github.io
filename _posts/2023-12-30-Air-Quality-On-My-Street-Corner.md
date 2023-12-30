@@ -57,7 +57,8 @@ function getUserColorScheme() {
 	    xaxis: {
 	    	   type: 'date',
 		   title: 'Time (Paris)',
-		   showgrid: true},
+		   showgrid: true,
+		   gridcolor: '#333'},
 	    yaxis: {
 	    	   title: 'PM 2.5 [ μg/m³ ]',
 		   showgrid: true},
